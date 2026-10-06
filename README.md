@@ -16,7 +16,7 @@ Immich /predict
     -> immich-ml-adapter
        -> stock immich-machine-learning:3003
        -> LiteLLM /v1/embeddinggemma/embeddings
-          -> embeddinggemma-api:8080/v1/embeddings
+          -> EmbeddingGemma backend (LiteLLM-only network path)
 ```
 
 The adapter has no EmbeddingGemma backend URL. The only configured upstreams
